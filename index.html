@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Profile</title>
+    <link rel="stylesheet" href="css/style.css" />
+    </head>
+<body>
+    <img class="banner" src="img/banner.jpg" alt="Banner" />
+    <div class="profileBox">
+      <img class="profile" src="img/profile.jpg" alt="Profile" />
+      <div class="txt">
+        <h1 id="profile-name">Nicola Tesla</h1>
+        <h2 id="hindel-name">@NicolaTesla</h2>
+      </div>
+    </div>     
+    
+    <div class="sub-div" onclick="toggleContent('content1', 'content2')">
+    <div class="sub-div-header">Bio</div>
+    <div class="sub-div-content" id="content1">আসসালামু আলাইকুম। আমি মো: তানভীর মাহতাব মুসা। নতুন ও অজানাকে জানা আমার সারা জীবনের লক্ষ্য।</div>
+  </div>
+
+  <div class="sub-div" onclick="toggleContent('content2', 'content1')">
+    <div class="sub-div-header">Links</div>
+    <div class="sub-div-content" id="content2">
+        <a href="m.com">Link 1</a><br/>
+        <a href="s.com">Link 2</a><br/>
+        <a href="d.com">Link 3</a>
+        </div>
+  </div>
+  
+   <script src="js/script.js"></script>
+</body>
+</html>
